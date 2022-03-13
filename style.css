@@ -218,6 +218,10 @@ ion-icon{
     width: 612px;
     
 } 
+.interacao{
+    display: flex;
+    justify-content: space-between;
+}
 .interacao img{
     width: 22px;
     height: 22px;
@@ -229,6 +233,9 @@ ion-icon{
     height: 22px;
     margin-left: 14px;
    
+}
+.intercaodireita {
+    margin-right: 17px;
 }
 .curtidopor{
     background-color: #FFFFFF;
@@ -274,6 +281,21 @@ ion-icon{
     margin-bottom: 14px;
     color: #8E8E8E;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.addcomentario input{
+    width: calc(100% - 60px);
+    height: 30px;
+    border: none;
+}
+.addcomentario button{
+    background-color: #B2DFFC;
+    border-radius: 5px;
+    border: none;
+}
+.addcomentario button:hover{
+    background-color: #0095F6;
 }
 
  .sidebar{
